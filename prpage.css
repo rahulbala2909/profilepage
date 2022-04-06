@@ -1,0 +1,86 @@
+#diva{
+  background-color: rgb(39, 70, 85);
+  height: 100px;
+}
+#divb{
+  font-size:xx-large;
+  font-style:bold;
+  color: white;
+  position: relative;
+  top:-67px;
+  right:-650px;
+  
+
+
+}
+#divc{
+  
+  position: relative;
+  top:-132.2px;
+  right: -40px;
+  
+  
+}
+img{
+  border-radius:100%;
+}
+#parent{
+   background-color: rgb(211, 218, 211);
+   padding: 65px;
+   display: grid;
+   grid-template-columns: auto auto auto auto ;
+   gap:50px 10px;
+   column-gap:5%;
+  
+   
+   
+}
+.child{
+  background-color: rgba(11, 13, 17, 0.801);
+   
+
+}
+#d1{
+  position: relative;
+  top: -131px;
+}
+#div1{
+  position: relative;
+  font-size:large;
+  color: rgb(231, 228, 228);
+  font-style: bold;
+  text-align: center;
+  height: 40px;
+  grid-row-start: 1;
+  grid-row-end:3;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  border-radius: 10px;
+  width: 80%;
+  right: -78px;
+}
+#div2{
+
+ grid-row-start: 3;
+ grid-row-end:6;
+ border-radius: 15px;
+}#div3{
+  grid-row-start: 3;
+  grid-row-end:6;
+  border-radius: 15px;
+
+}#div4{
+  grid-row-start: 3;
+  grid-row-end:6;
+  border-radius: 15px;
+}#div5{
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start:6;
+  grid-row-end:12;
+  border-radius: 15px;
+}
+#div6{
+ grid-area: 1/1/12/2;
+ border-radius: 15px;
+}
